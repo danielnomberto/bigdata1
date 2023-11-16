@@ -13,6 +13,15 @@ Realizar un análisis de sentimientos a un conjunto de datos provenientes de una
 - Machine Learning: Scikit-learn
 - Visualización: Matplotlib, Seaborn
 
+## Comentario sobre el dataset
+Se trata de un conjunto de datos en formato CSV obtenido de la página especificada, actualizado hasta el 12 de noviembre. Estos comentarios fueron descargados mediante la aplicación [exportcomments.com](https://es.exportcomments.com/) el 14 de noviembre, con un total de 130 registros.
+
+## Hallazgos importantes
+Durante el análisis, observamos que el consejo dado por el influencer es válido para su audiencia. Sería beneficioso profundizar más con datos como el género de la audiencia, horas de interacción, etc. Esto permitiría un enfoque más minucioso en estrategias de marketing.
+
+## Conclusiones del proyecto
+Se sugiere considerar el uso de un dataset más extenso o un modelo más potente para mejorar la precisión del modelo. Con la aplicación del modelo de regresión logística, se obtuvieron buenos resultados en la aplicación del análisis de sentimientos. Sin embargo, se requiere más información para perfeccionar el modelo.
+
 ## Herramientas y Librerías
 ```python
 import pandas as pd
@@ -27,16 +36,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
-
-## Comentario sobre el dataset
-Se trata de un conjunto de datos en formato CSV obtenido de la página especificada, actualizado hasta el 12 de noviembre. Estos comentarios fueron descargados mediante la aplicación [exportcomments.com](https://es.exportcomments.com/) el 14 de noviembre, con un total de 130 registros.
-
-## Hallazgos importantes
-Durante el análisis, observamos que el consejo dado por el influencer es válido para su audiencia. Sería beneficioso profundizar más con datos como el género de la audiencia, horas de interacción, etc. Esto permitiría un enfoque más minucioso en estrategias de marketing.
-
-## Conclusiones del proyecto
-Se sugiere considerar el uso de un dataset más extenso o un modelo más potente para mejorar la precisión del modelo. Con la aplicación del modelo de regresión logística, se obtuvieron buenos resultados en la aplicación del análisis de sentimientos. Sin embargo, se requiere más información para perfeccionar el modelo.
-
-
 
 
